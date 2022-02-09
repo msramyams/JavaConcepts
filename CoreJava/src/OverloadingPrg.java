@@ -15,8 +15,8 @@ public class OverloadingPrg
 			{  
 			public static void main(String[] args)
 			{  
-			System.out.println(OverloadingPrg1.add(11,11));  
-			System.out.println(OverloadingPrg1.add(12.3,12.6));  
+			System.out.println(OverloadingPrg1.add(10,11));  
+			System.out.println(OverloadingPrg1.add(12.6,12.5));  
 			} 
 	}
 
