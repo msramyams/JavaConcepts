@@ -7,7 +7,8 @@ public class ImpRunInterface
 		
 		ThreadClass tc= new ThreadClass();	//object of ThreadClass created
 		Thread thread_runnable= new Thread(tc);
-		thread_runnable.start(); // using start function we can run the thread
+		thread_runnable.start(); 	// using start function we can run the thread
 	}
 
 }
+																					
