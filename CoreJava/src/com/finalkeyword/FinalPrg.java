@@ -12,9 +12,9 @@ package com.finalkeyword;
 	//class Student2 extends Student1 // if i declare super class as final it cannot be inherited 
 	//{
 		//void id() // if i declare method as final it cannot override
-//		{
+//	{
 			
-//		}
+//	}
 	//}
 
 	public class FinalPrg 
