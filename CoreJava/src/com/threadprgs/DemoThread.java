@@ -4,28 +4,28 @@ class A extends Thread
 {
 	public void run()
 	{
-		System.out.println("Id of current Thread A:"+Thread.currentThread().getPriority());
+		System.out.println("Id of current Thread A:"+Thread.currentThread().getId());
 	}
 }
 class B extends Thread
 {
 	public void run()
 	{
-		System.out.println("Id of current Thread B:"+Thread.currentThread().getPriority());
+		System.out.println("Id of current Thread B:"+Thread.currentThread().getId());
 	}
 }
 class C extends Thread
 {
 	public void run()
 	{
-		System.out.println("Id of current Thread C:"+Thread.currentThread().getPriority());
+		System.out.println("Id of current Thread C:"+Thread.currentThread().getId());
 	}
 }
 class D implements Runnable
 {
 	public void run()
 	{
-		System.out.println("ID of current Thread D: "+Thread.currentThread().getPriority());
+		System.out.println("ID of current Thread D: "+Thread.currentThread().getId());
 	}
 }
 public class DemoThread {
